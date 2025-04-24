@@ -18,7 +18,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-
+    name: Convert Github Issue to Jira Issue
     - name: Login
       uses: atlassian/gajira-login@master
       env:
